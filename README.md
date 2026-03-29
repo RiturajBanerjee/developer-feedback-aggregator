@@ -23,15 +23,13 @@ This repository contains a Teams app and a small MCP server that exposes context
 
 ## Key folders and files
 
-- `community-insights/` - Main Teams app and bot code.
+- `developer-feedback-aggregator/` - Main Teams app and bot code.
 	- `src/index.ts` - App entry point and message handler. Shows how the prompt, MCP client plugin, and OpenAI model are wired together.
 	- `package.json` - Lists dependencies and dev scripts used to run and build the Teams app.
 	- `appPackage/manifest.json` - Teams app manifest used when packaging or installing the app in Teams.
 	- `infra/azure.bicep` - Bicep file to provision Azure resources such as an App Service and bot registration.
 - `microsoft-issues-mcp-server/` - The MCP server implementation.
 	- `src/` and `package.json` - This folder is implemented as an Azure Functions app. It uses the Model Context Protocol SDK to serve context to the model.
-- `docs/` - Project documentation. This file is `mcp/docs/index.md`.
-- `community-insights-demo.mp4` - Demo video of the app. See the How to add the video section for details.
 
 ## Tech stack and main libraries
 
