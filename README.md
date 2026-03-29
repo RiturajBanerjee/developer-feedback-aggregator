@@ -1,6 +1,6 @@
-## Community Insights
+## Developer Feedback Aggregator
 
-Community Insights is an AI powered developer feedback aggregator. It collects developer feedback and community signals, processes them with a model using the Model Context Protocol (MCP), and returns concise insights inside Microsoft Teams.
+This is an AI powered developer feedback aggregator. It collects developer feedback and community signals, processes them with a model using the Model Context Protocol (MCP), and returns concise insights inside Microsoft Teams.
 
 This repository contains a Teams app and a small MCP server that exposes context to the model. The project is focused on rapid prototyping and uses Microsoft Teams AI libraries and Azure for hosting.
 
